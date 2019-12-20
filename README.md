@@ -1,4 +1,4 @@
 # harmonic-tension-vst3
+This project is mostly devoted to the implementation in C++ language of a plugin within the Juce framework whose main goal has been to automatize lighting on a stage in a real-time fashion. It is based on the incoming and processing of MIDI events which are processed in real time, and the extracted tension metrics can control the tuning of brightness and change of patterns in stage lights. Demonstration of this has been carried out in Festivalle electronic music stage in Valle dei Templi, 9 and 10 August 2019
 
-
-For further details, please refer to the file "Implementation of aVST3 plugin based on the geometrical modelling of Tonal Harmony with the Spiral Array model within the Juce framework for intelligent lighting engineering purposes".
+For further details, it is suggested downloading the pdf file "Implementation of aVST3 plugin based on the geometrical modelling of Tonal Harmony with the Spiral Array model within the Juce framework for intelligent lighting engineering purposes" within this folder. 
