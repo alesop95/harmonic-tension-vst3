@@ -1,0 +1,41 @@
+# Materiali privati e non versionati
+_notes/
+CLAUDE.local.md
+.claude/settings.local.json
+
+# Documentazione (il PDF descrittivo e' gia' tracciato nel repo remoto)
+# Per de-tracciarlo: git rm --cached "Implementation of aVST3 plugin*.pdf"
+*.docx
+*.doc
+
+# JUCE: artefatti di build e file generati
+build/
+Builds/
+JuceLibraryCode/
+*.jucer.bak
+
+# C++: artefatti di compilazione
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# IDE
+.vs/
+*.vcxproj.user
+*.user
+.idea/
+*.cbp
+*.depend
+*.layout
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
